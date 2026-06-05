@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | XOXO Voyage</title>
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/auth.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+    <script src="../assets/js/app.js" defer></script>
+    <script src="../assets/js/auth.js" defer></script>
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="header-inner container">
+                <a href="../index.html" class="brand-logo"><span>XOXO</span> Voyage</a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../explore/destinations.html">Destinations</a></li>
+                        <li><a href="../booking/flights.html">Flights</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-actions">
+                    <a class="btn-secondary header-cta" href="signin.html">Sign In</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Menu">☰</button>
+            </div>
+            <div class="mobile-menu" aria-hidden="true">
+                <button class="mobile-menu-close" aria-label="Close menu">×</button>
+                <a href="../index.html">Home</a>
+                <a href="../explore/destinations.html">Destinations</a>
+                <a href="../booking/flights.html">Flights</a>
+                <a href="signin.html">Sign In</a>
+            </div>
+        </header>
+
+        <main class="auth-layout fade-in">
+            <div class="container">
+                <div class="auth-card">
+                    <aside class="auth-aside">
+                        <div class="auth-brand-mark">XOXO Voyage</div>
+                        <p>Begin your journey with a tailored profile, exclusive benefits, and bespoke travel offers.
+                        </p>
+                        <div class="auth-highlight">
+                            <span>Exclusive offers</span>
+                            <span>Tailored itineraries</span>
+                            <span>Priority service</span>
+                        </div>
+                    </aside>
+                    <section class="auth-panel">
+                        <h1>Begin Your Journey</h1>
+                        <p>Set up a travel account designed for premium escapes and personalized recommendations.</p>
+                        <form class="auth-form">
+                            <div class="field-group split">
+                                <div class="field">
+                                    <label for="firstName">First Name</label>
+                                    <input id="firstName" type="text" placeholder="First name" required>
+                                </div>
+                                <div class="field">
+                                    <label for="lastName">Last Name</label>
+                                    <input id="lastName" type="text" placeholder="Last name" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="createEmail">Email</label>
+                                <input id="createEmail" type="email" placeholder="hello@xoxo.com" required>
+                            </div>
+                            <div class="field">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input id="phoneNumber" type="tel" placeholder="+1 234 567 890" required>
+                            </div>
+                            <div class="field-group split">
+                                <div class="field">
+                                    <label for="createPassword">Password</label>
+                                    <input id="createPassword" type="password" placeholder="Create password" required
+                                        oninput="updateStrengthMeter(this)">
+                                </div>
+                                <div class="field">
+                                    <label for="confirmPassword">Confirm Password</label>
+                                    <input id="confirmPassword" type="password" placeholder="Confirm password" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="travelPreferences">Travel Preferences</label>
+                                <select id="travelPreferences" required>
+                                    <option value="">Select preference</option>
+                                    <option>Curated escapes</option>
+                                    <option>Private villas</option>
+                                    <option>Gastronomy journeys</option>
+                                    <option>Wellness retreats</option>
+                                </select>
+                            </div>
+                            <label class="field">
+                                <input type="checkbox"> Receive exclusive travel offers
+                            </label>
+                            <button class="btn-primary" type="submit">Create Account</button>
+                        </form>
+                        <div class="password-strength">
+                            <span>Password strength <strong id="strengthLabel">Secure</strong></span>
+                            <div class="strength-track">
+                                <div id="strengthMeterFill" class="strength-fill"></div>
+                            </div>
+                        </div>
+                        <p class="auth-meta">Already a member? <a class="small-link" href="signin.html">Sign In</a></p>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-inner container">
+                <div class="footer-brand">
+                    <h2>XOXO <span>Voyage</span></h2>
+                    <p class="footer-copy">Designed for discerning travelers and carefully curated journeys.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Assistance</h4>
+                    <ul>
+                        <li><a href="forgot-password.html">Password help</a></li>
+                        <li><a href="../support/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Platform</h4>
+                    <ul>
+                        <li><a href="../booking/flights.html">Flights</a></li>
+                        <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Brand</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="signin.html">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom container">
+                <span>© 2026 XOXO Voyage</span>
+                <span>Luxury travel platform.</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

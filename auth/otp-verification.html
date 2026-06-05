@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification | XOXO Voyage</title>
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/auth.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+    <script src="../assets/js/app.js" defer></script>
+    <script src="../assets/js/auth.js" defer></script>
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="header-inner container">
+                <a href="../index.html" class="brand-logo"><span>XOXO</span> Voyage</a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../explore/destinations.html">Destinations</a></li>
+                        <li><a href="../booking/flights.html">Flights</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-actions">
+                    <a class="btn-secondary header-cta" href="signin.html">Sign In</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Menu">☰</button>
+            </div>
+            <div class="mobile-menu" aria-hidden="true">
+                <button class="mobile-menu-close" aria-label="Close menu">×</button>
+                <a href="../index.html">Home</a>
+                <a href="../explore/destinations.html">Destinations</a>
+                <a href="../booking/flights.html">Flights</a>
+                <a href="signin.html">Sign In</a>
+            </div>
+        </header>
+
+        <main class="auth-layout fade-in">
+            <div class="container">
+                <div class="auth-card">
+                    <aside class="auth-aside">
+                        <div class="auth-brand-mark">OTP Verification</div>
+                        <p>Confirm your identity with our secure verification flow before continuing your premium
+                            booking experience.</p>
+                        <div class="auth-highlight">
+                            <span>Fast verification</span>
+                            <span>Encrypted delivery</span>
+                            <span>Trusted sessions</span>
+                        </div>
+                    </aside>
+                    <section class="auth-panel">
+                        <h1>Confirm Your Code</h1>
+                        <p>Enter the six-digit code sent to your email to complete the sign-up process.</p>
+                        <div class="field-group">
+                            <div class="otp-code">
+                                <input class="otp-input" maxlength="1" onkeydown="moveOtpFocus(event, 0)" type="text">
+                                <input class="otp-input" maxlength="1" onkeydown="moveOtpFocus(event, 1)" type="text">
+                                <input class="otp-input" maxlength="1" onkeydown="moveOtpFocus(event, 2)" type="text">
+                                <input class="otp-input" maxlength="1" onkeydown="moveOtpFocus(event, 3)" type="text">
+                                <input class="otp-input" maxlength="1" onkeydown="moveOtpFocus(event, 4)" type="text">
+                                <input class="otp-input" maxlength="1" onkeydown="moveOtpFocus(event, 5)" type="text">
+                            </div>
+                        </div>
+                        <div class="cta-row">
+                            <a class="small-link" href="forgot-password.html">Resend OTP</a>
+                            <button class="btn-primary" type="button">Verify</button>
+                        </div>
+                        <div class="auth-meta">
+                            <p>OTP expires in 00:30</p>
+                        </div>
+                        <p class="auth-meta">Need assistance? <a class="small-link"
+                                href="../support/contact.html">Contact Support</a></p>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-inner container">
+                <div class="footer-brand">
+                    <h2>XOXO <span>Voyage</span></h2>
+                    <p class="footer-copy">Secure verification designed for premium travel guests.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Assistance</h4>
+                    <ul>
+                        <li><a href="../support/contact.html">Contact</a></li>
+                        <li><a href="../support/faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Platform</h4>
+                    <ul>
+                        <li><a href="../booking/flights.html">Flights</a></li>
+                        <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Brand</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom container">
+                <span>© 2026 XOXO Voyage</span>
+                <span>Secure premium access.</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
