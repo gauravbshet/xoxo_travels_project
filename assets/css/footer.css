@@ -1,0 +1,78 @@
+footer.site-footer {
+    background: var(--dark-text);
+    color: rgba(255, 255, 255, .82);
+    padding: 72px 0 42px;
+}
+
+.footer-inner {
+    width: min(var(--max-width), calc(100% - 4rem));
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.footer-brand {
+    margin-bottom: 22px;
+}
+
+.footer-brand h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    margin: 0;
+    color: var(--white);
+}
+
+.footer-brand span {
+    color: var(--luxury-gold);
+}
+
+.footer-copy {
+    color: rgba(255, 255, 255, .6);
+    line-height: 1.8;
+    max-width: 320px;
+}
+
+.footer-col h4 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .55);
+    margin-bottom: 18px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+}
+
+.footer-col a {
+    color: rgba(255, 255, 255, .75);
+    font-size: 14px;
+    transition: color var(--transition);
+}
+
+.footer-col a:hover {
+    color: var(--luxury-gold);
+}
+
+.footer-bottom {
+    margin-top: 42px;
+    border-top: 1px solid rgba(255, 255, 255, .08);
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, .65);
+}
+
+@media (max-width: 900px) {
+    .footer-inner {
+        grid-template-columns: 1fr;
+    }
+}

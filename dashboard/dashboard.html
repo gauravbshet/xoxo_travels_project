@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | XOXO Voyage</title>
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+    <script src="../assets/js/app.js" defer></script>
+    <script src="../assets/js/dashboard.js" defer></script>
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="header-inner container">
+                <a href="../index.html" class="brand-logo"><span>XOXO</span> Voyage</a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../explore/destinations.html">Destinations</a></li>
+                        <li><a href="../booking/flights.html">Flights</a></li>
+                        <li><a href="dashboard.html" aria-current="page">Dashboard</a></li>
+                        <li><a href="../support/contact.html">Support</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-actions">
+                    <a class="btn-secondary header-cta" href="../auth/signin.html">Sign In</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Menu">☰</button>
+            </div>
+            <div class="mobile-menu" aria-hidden="true">
+                <button class="mobile-menu-close" aria-label="Close menu">×</button>
+                <a href="../index.html">Home</a>
+                <a href="../explore/destinations.html">Destinations</a>
+                <a href="../booking/flights.html">Flights</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="../support/contact.html">Support</a>
+                <a href="../auth/signin.html">Sign In</a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="section dashboard-hero container fade-in">
+                <div class="section-title">Traveler dashboard</div>
+                <h1 class="section-heading">Welcome back, Isabella. Your next journey is ready.</h1>
+                <p class="section-copy">Track your trips, review curated recommendations, and manage VIP benefits from
+                    one elegant dashboard.</p>
+            </section>
+
+            <section class="container stats-grid fade-in delay-1">
+                <div class="stat-card">
+                    <h3>14</h3>
+                    <p>Upcoming trips</p>
+                </div>
+                <div class="stat-card">
+                    <h3>4.9</h3>
+                    <p>Average satisfaction</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Platinum</h3>
+                    <p>Membership tier</p>
+                </div>
+                <div class="stat-card">
+                    <h3>24/7</h3>
+                    <p>Concierge support</p>
+                </div>
+            </section>
+
+            <section class="container dashboard-grid fade-in delay-2">
+                <div class="dashboard-panel">
+                    <div class="panel-header">
+                        <h3>Upcoming journeys</h3>
+                    </div>
+                    <div class="panel-content">
+                        <div class="trip-card">
+                            <div>
+                                <h4>Paris Luxury Retreat</h4>
+                                <p>May 10 — 15, 2026 · First-class flight + hotel stay</p>
+                            </div>
+                            <span>Confirmed</span>
+                        </div>
+                        <div class="trip-card">
+                            <div>
+                                <h4>Kyoto Cultural Escape</h4>
+                                <p>June 2 — 8, 2026 · Private ryokan</p>
+                            </div>
+                            <span>Confirmed</span>
+                        </div>
+                        <div class="trip-card">
+                            <div>
+                                <h4>Santorini Wellness Stay</h4>
+                                <p>July 18 — 24, 2026 · Cliffside villa</p>
+                            </div>
+                            <span>Preparing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-panel">
+                    <div class="panel-header">
+                        <h3>Member perks</h3>
+                    </div>
+                    <div class="panel-content list-row">
+                        <div class="membership-tier">
+                            <strong>Complimentary upgrade</strong>
+                            <span>Eligible for suite and cabin enhancements on every booking.</span>
+                        </div>
+                        <div class="membership-tier">
+                            <strong>Private lounge access</strong>
+                            <span>Enjoy exclusive airport and resort lounges worldwide.</span>
+                        </div>
+                        <div class="membership-tier">
+                            <strong>Concierge credits</strong>
+                            <span>Redeem premium concierge support for custom requests.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container section--compact fade-in delay-3">
+                <div class="section-title">Travel recommendations</div>
+                <div class="section-heading">Designed escapes for your next private getaway.</div>
+                <div class="section-copy">Handpicked destinations and itineraries based on your membership profile.
+                </div>
+                <div class="grid grid-3" style="margin-top:32px; gap:20px;">
+                    <div class="card-soft" style="padding:26px;">
+                        <h3 class="heading-small">Maldives Retreat</h3>
+                        <p class="text-muted">Water villa with butler service and private yacht transfer.</p>
+                    </div>
+                    <div class="card-soft" style="padding:26px;">
+                        <h3 class="heading-small">Tuscany Estate</h3>
+                        <p class="text-muted">Historic villa, private vineyard tasting, and cooking masterclass.</p>
+                    </div>
+                    <div class="card-soft" style="padding:26px;">
+                        <h3 class="heading-small">Aspen Ski Escape</h3>
+                        <p class="text-muted">Mountain chalet, private guide, and heated pool retreat.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-inner container">
+                <div class="footer-brand">
+                    <h2>XOXO <span>Voyage</span></h2>
+                    <p class="footer-copy">Your destination management hub for luxury travel.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="../explore/destinations.html">Destinations</a></li>
+                        <li><a href="../explore/packages.html">Packages</a></li>
+                        <li><a href="../explore/experiences.html">Experiences</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="../support/contact.html">Contact</a></li>
+                        <li><a href="../support/faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Account</h4>
+                    <ul>
+                        <li><a href="../auth/signin.html">Sign In</a></li>
+                        <li><a href="../auth/signup.html">Create Account</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom container">
+                <span>© 2026 XOXO Voyage</span>
+                <span>Premium travel management.</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

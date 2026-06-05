@@ -1,0 +1,15 @@
+:root {
+    --primary-gold: #b8935a;
+    --luxury-gold: #d4aa72;
+    --cream: #faf7f2;
+    --cream-secondary: #f3ede3;
+    --dark-text: #1a1510;
+    --muted-text: #9a8e82;
+    --border: #e0d5c5;
+    --white: #ffffff;
+    --shadow-soft: rgba(26, 21, 16, .08);
+    --shadow-deep: rgba(26, 21, 16, .18);
+    --radius: 18px;
+    --max-width: 1240px;
+    --transition: 0.28s ease;
+}

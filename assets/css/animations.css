@@ -1,0 +1,38 @@
+.fade-page {
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadePageIn .8s forwards ease-out;
+}
+
+@keyframes fadePageIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.glow-hover {
+    transition: box-shadow .3s ease, transform .3s ease;
+}
+
+.glow-hover:hover {
+    box-shadow: 0 24px 60px rgba(184, 147, 90, .18);
+    transform: translateY(-2px);
+}
+
+.skeleton {
+    background: linear-gradient(90deg, rgba(250, 247, 242, 1) 0%, rgba(224, 213, 197, .6) 50%, rgba(250, 247, 242, 1) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.6s infinite;
+    border-radius: 14px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
