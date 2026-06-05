@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels | XOXO Voyage</title>
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/booking.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+    <script src="../assets/js/app.js" defer></script>
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="header-inner container">
+                <a href="../index.html" class="brand-logo"><span>XOXO</span> Voyage</a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="flights.html">Flights</a></li>
+                        <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-actions">
+                    <a class="btn-secondary header-cta" href="../auth/signin.html">Sign In</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Menu">☰</button>
+            </div>
+            <div class="mobile-menu" aria-hidden="true">
+                <button class="mobile-menu-close" aria-label="Close menu">×</button>
+                <a href="../index.html">Home</a>
+                <a href="flights.html">Flights</a>
+                <a href="../dashboard/dashboard.html">Dashboard</a>
+                <a href="../auth/signin.html">Sign In</a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="booking-hero container fade-in">
+                <div class="hero-inner">
+                    <div>
+                        <p class="section-title">Hotel booking</p>
+                        <h1 class="section-heading">Curated retreats with exceptional design and service.</h1>
+                        <p class="section-copy">Search luxury suites and private villas with premium amenities and
+                            elevated hospitality.</p>
+                    </div>
+                    <div class="booking-form-card">
+                        <div class="section-title">Find a suite</div>
+                        <div class="booking-search">
+                            <div class="field"><label>Destination</label><input type="text" value="Santorini"></div>
+                            <div class="field"><label>Check in</label><input type="date"></div>
+                            <div class="field"><label>Check out</label><input type="date"></div>
+                            <button class="btn-primary" type="button">Search hotels</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section--compact container">
+                <div class="section-title">Selected hotels</div>
+                <div class="grid grid-2">
+                    <div class="hotel-card glow-hover">
+                        <img src="https://images.unsplash.com/photo-1501117716987-c8e7df152b78?w=900&q=80"
+                            alt="Luxury hotel">
+                        <div class="booking-card-content">
+                            <span class="booking-card-meta">Ocean-view villa</span>
+                            <h3 class="heading-small">Santorini Retreat</h3>
+                            <p class="text-muted">Private pool, cliffside dining, and bespoke concierge services.</p>
+                            <p class="booking-price">$1,280</p>
+                        </div>
+                    </div>
+                    <div class="hotel-card glow-hover">
+                        <img src="https://images.unsplash.com/photo-1499696015144-1cda7d1d4dd7?w=900&q=80"
+                            alt="Luxury suite">
+                        <div class="booking-card-content">
+                            <span class="booking-card-meta">Urban signature</span>
+                            <h3 class="heading-small">Paris Penthouse</h3>
+                            <p class="text-muted">A private lift, art-filled interiors, and a Michelin-star dining
+                                recommendation.</p>
+                            <p class="booking-price">$1,110</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-inner container">
+                <div class="footer-brand">
+                    <h2>XOXO <span>Voyage</span></h2>
+                    <p class="footer-copy">The refined hotel booking experience for luxury travelers.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Book</h4>
+                    <ul>
+                        <li><a href="flights.html">Flights</a></li>
+                        <li><a href="payment.html">Payment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="../support/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Account</h4>
+                    <ul>
+                        <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom container">
+                <span>© 2026 XOXO Voyage</span>
+                <span>Premium hotel booking.</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
